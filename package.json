@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "4.5.0",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -15,10 +16,14 @@
   "devDependencies": {
     "eslint": "^8.26.0",
     "eslint-config-next": "13.0.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "prisma": "4.5.0"
   },
   "volta": {
     "node": "16.18.0",
     "yarn": "1.22.15"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   }
 }
