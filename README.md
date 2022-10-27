@@ -14,3 +14,7 @@ cp .env.template .env
 npx prisma db push
 npx prisma db seed
 ```
+
+## Demo
+
+![demo img](https://github.com/azoom-l-x-duy/nextjs-13-prototype/blob/main/public/1028_next-demo.gif?raw=true)
