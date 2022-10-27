@@ -10,7 +10,7 @@ function MainNavigation() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/issues">Issues</Link>
+          <Link href="/users">Users</Link>
         </li>
       </ul>
     </nav>
